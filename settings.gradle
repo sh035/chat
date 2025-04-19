@@ -1,5 +1,4 @@
 rootProject.name = 'chat'
-include 'module-common'
-include 'module-api'
-include 'module-web'
+include 'user-api'
+include 'chat-api'
 
