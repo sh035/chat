@@ -1,4 +1,4 @@
-package com.study.chat_api;
+package com.study.chatApi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
