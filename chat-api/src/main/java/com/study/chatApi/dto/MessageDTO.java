@@ -1,13 +1,13 @@
 package com.study.chatApi.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import com.study.chatApi.entity.BaseTime;
+import lombok.*;
 
 @Getter
-@NoArgsConstructor
+@Builder
+@NoArgsConstructor(access = AccessLevel.PROTECTED)
 @AllArgsConstructor
-public class MessageDTO {
+public class MessageDTO extends BaseTime {
 
     private Integer chatRoomId;
     private Integer userId;
